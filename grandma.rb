@@ -23,4 +23,5 @@ def speak_to_grandma(speak)
   binding.pry
 end
 
+speak = gets.strip
 speak_to_grandma(speak)
