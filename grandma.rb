@@ -21,7 +21,6 @@ def speak_to_grandma(speak)
   else
     puts "HUH?! SPEAK UP, SONNY!"
   end
-  binding.pry
 end
 
 speak = gets.strip
