@@ -14,7 +14,7 @@ require 'pry'
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(speak)
-  if speak.upcase == true && speak != "I LOVE YOU GRANDMA!"
+  if speak == speak.upcase && speak != "I LOVE YOU GRANDMA!"
     puts "NO, NOT SINCE 1938!"
   elsif speak.upcase == true && speak == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
