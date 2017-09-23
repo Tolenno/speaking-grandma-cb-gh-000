@@ -23,4 +23,4 @@ def speak_to_grandma(speak)
   binding.pry
 end
 
-speak_to_grandma
+speak_to_grandma(speak)
