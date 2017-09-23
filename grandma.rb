@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-def speak_to_grandma(speak = "I LOVE YOU GRANDMA!")
+def speak_to_grandma(speak)
   if speak.upcase && speak != "I LOVE YOU GRANDMA!"
     puts "NO, NOT SINCE 1938!"
   elsif speak == "I LOVE YOU GRANDMA!"
@@ -22,3 +22,5 @@ def speak_to_grandma(speak = "I LOVE YOU GRANDMA!")
   end
   binding.pry
 end
+
+speak_to_grandma
